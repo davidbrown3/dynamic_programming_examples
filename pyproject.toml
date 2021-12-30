@@ -8,7 +8,7 @@ authors = ["David Browne <davidbrowne@outlook.com>"]
 python = "^3.8.12,<3.10"
 jax = "*"
 plotly = "^5.1.0"
-ddpy = { path = "../dynamic_programming/", develop = true }
+jax_ddp = { path = "../dynamic_programming/", develop = true }
 
 
 [tool.poetry.dev-dependencies]
