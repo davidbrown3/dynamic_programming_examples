@@ -1,7 +1,7 @@
 import json
 import jax.numpy as np
 
-from ddpy.examples.models import CartPole
+from ddp_examples.cartpole import CartPole
 from ddpy.solvers import DifferentialDynamicProgramming
 from ddpy.solvers import quadratic_cost_function
 

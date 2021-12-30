@@ -2,7 +2,7 @@ from collections import namedtuple
 
 import jax.numpy as np
 import pytest
-from ddpy.examples.models import CartPole
+from ddp_examples.cartpole import CartPole
 
 
 @pytest.fixture(scope="session")
